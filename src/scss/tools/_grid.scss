@@ -1,9 +1,26 @@
-.col-6,
-.col-4,
-.col-8,
-.col-2{
+/* GRID SYSTEM */ 
+$columns: 12!default;
+$gutter : 20px!default;
+
+%col{
     float: left;
     position: relative;
     min-height: 1px;
-    background-color: grey ;
+    padding: 0 $gutter * 0.5;
 }
+
+@for $i from 1 through $columns{
+    .col-#{$i}{
+        @extend %col;
+        width: $i / $columns * 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    @for $i from 1 through $columns{
+        .col-#{$i}{
+            width: 100%;
+        }
+    }
+}
+/* END GRID SYSTEM */
