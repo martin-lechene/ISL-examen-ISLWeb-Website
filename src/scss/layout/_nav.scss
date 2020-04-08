@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+    & > li{
+        display: inline;
+    };
+};
+.layout-head-menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color:black;
+    &:hover{
+        color:map-get($colors, link );
+    };
+};
+.is-active{
+    color:lighten(map-get($colors, link) , 0.9);
+}

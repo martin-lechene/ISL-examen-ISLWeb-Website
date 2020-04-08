@@ -1,0 +1,22 @@
+@import "variables/variables.scss";
+    
+body{
+    background-color: white;
+}
+button{
+    color:map-get($colors, btn1);
+    background-color: map-get($colors, btn2);
+    &:hover{
+        color:map-get($colors, btn2);
+        background-color: map-get($colors, btn1);
+    };
+};
+
+h1{
+    color:map-get($colors, title);
+}
+
+
+
+
+/* Grille  */

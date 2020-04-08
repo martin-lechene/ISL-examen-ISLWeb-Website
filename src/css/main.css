@@ -1,0 +1,14 @@
+body {
+  background-color: white; }
+
+button {
+  color: #8490FF;
+  background-color: #62bdfc; }
+  button:hover {
+    color: #62bdfc;
+    background-color: #8490FF; }
+
+h1 {
+  color: #222222; }
+
+/* Grille */
