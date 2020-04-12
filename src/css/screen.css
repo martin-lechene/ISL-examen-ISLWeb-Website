@@ -381,13 +381,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: white;
-  margin: 150px; }
-
-header {
-  background-color: #fff; }
-
-.wrap {
-  overflow-wrap: anywhere; }
+  margin: auto; }
 
 ul {
   list-style: none; }
@@ -398,7 +392,8 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   background-color: transparent;
-  color: black; }
+  color: black;
+  text-align: center; }
   .layout-head-menu-link:hover {
     color: #8490ff; }
 

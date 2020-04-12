@@ -9,6 +9,7 @@ ul {
     text-transform: uppercase;
     background-color: transparent;
     color:black;
+    text-align: center;
     &:hover{
         color:map-get($colors, link );
     };
