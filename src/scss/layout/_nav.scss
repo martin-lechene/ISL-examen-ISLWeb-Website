@@ -17,3 +17,8 @@ ul {
 .is-active{
     color:lighten(map-get($colors, link) , 0.9);
 }
+
+.layout-head-menu{}
+.layout-head-menu-nav{}
+.layout-head-menu-link{}
+.is-active{}

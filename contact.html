@@ -65,7 +65,19 @@
                 </ul>
             </div>
             <div class="main-contact-contactus-form">
-                <form action="contact-us">
+                <form>
+                    <legend>contact us</legend>
+                    <label>Name :</label>
+                    <input type="text" name="name" id="name" autocomplete="name"/>
+                    <label>Email :</label>
+                    <input type="email" name="email" id="email" autocomplete="email" />
+                    <label>Subject :</label>
+                    <input type="text" name="subject" id="subject" />
+                    <label>Your message</label>
+                    <input type="text" name="text" id="text">
+                    <input type="submit" value="Submit">
+                </form>
+                <!--<form action="contact-us">
                     <ul>
                         <li>
                             <label for="name">
@@ -97,7 +109,7 @@
                         </li>
                     </ul>
                     <button type="submit">Send message</button>
-                </form>
+                </form>-->
             </div>
         </section>
     </main>
