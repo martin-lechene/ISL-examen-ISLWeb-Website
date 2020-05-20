@@ -1,0 +1,49 @@
+.section-clients {
+  padding-bottom: 4rem;
+  background-color: #FAF9FF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.skill-content {
+  margin-bottom: 10rem; 
+}
+.skill-content p {
+    height: 20px;
+    text-align: end; 
+}
+
+
+.sect-title h5 {
+  text-align: center;
+  line-height: 0.8em; 
+}
+.clients-speak-content {
+  display: flex;
+  margin: 1rem 0;
+  background-color: $color-white;
+  width: calc(100% - 2rem);
+  padding: 2rem; }
+.clients-speak-content img {
+  max-width: 3rem;
+  width: 100%;
+  max-height: 3rem;
+  margin: 1.5rem 1rem; }
+.clients-speak-content h3 {
+  color: $title-color;
+  font-weight: 600; }
+
+.clients-author, .clients-work {
+  margin: 0 1rem; 
+}
+/* CACHER SUR PC ET AFFICHER SUR MOBILE */ 
+.m-hide {
+  display: none; }
+
+@media screen and (min-width: 800px) {
+/* CACHER SUR PC ET AFFICHER SUR MOBILE */
+  .m-hide {
+    display: block;
+  } 
+}

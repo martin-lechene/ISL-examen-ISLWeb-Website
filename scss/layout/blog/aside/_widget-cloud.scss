@@ -1,0 +1,14 @@
+.widget-cloud-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem; 
+  }
+  .widget-cloud-content a {
+    text-decoration: none;
+    color: $title-color;
+    border: 1px solid #DCDEDF;
+    padding: 1rem;
+    margin: .8rem .4rem .8rem 0;
+    font-size: .9rem;
+    background-color: $color-white; 
+  }

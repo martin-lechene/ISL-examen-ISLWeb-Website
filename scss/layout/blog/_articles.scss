@@ -1,0 +1,20 @@
+.blog-article-info h3 {
+    margin: 0; 
+  }
+  .blog-article-content-box img {
+    margin: 1rem;
+    width: calc(100% - 2rem); 
+  }
+  .blog-article-info {
+    margin: 1rem;
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  .blog-article-info h3 {
+    width: 100%; 
+  }
+  .blog-article-info p {
+    width: 50%;
+    margin: 1rem 0; 
+  }

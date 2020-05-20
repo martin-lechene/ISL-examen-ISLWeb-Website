@@ -1,0 +1,123 @@
+.footer-widget {
+  background-color: #04091E;
+  padding: 5rem 0; 
+}
+  .footer-widget a {
+    text-decoration: none;
+    color: $color-primary; 
+}
+
+.footer-content h3 {
+  color: $color-white;
+  font-weight: 500; 
+}
+
+.footer-widget form {
+  width: 100%; 
+}
+
+.form-email {
+  width: 80%;
+  height: 100%; 
+}
+
+.footer-content form {
+  margin: 1rem; 
+}
+
+.footer-content .form-email, .footer-content .footer-widget-newletter-btn {
+  padding: .6rem; 
+}
+
+.footer-content .footer-widget-newletter-btn {
+  background-color: #7E98FF;
+  border: none;
+  margin-left: -4px;
+  color: $color-white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin: 0;
+  height: 100%;
+  padding: 0.6rem; 
+}
+
+input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem; 
+}
+
+.footer-content a {
+  margin: 0;
+  padding: .8rem; 
+}
+
+button:hover, input.widget-popular-title:hover {
+  transition: 0.5s ease-in; 
+}
+
+.model-content a {
+    margin: 1rem; 
+}
+.model-content h3 {
+    text-transform: uppercase; 
+}
+      
+a.btn-home {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: $color-white;
+  background-color: $color-primary;
+  background-image: linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -moz-linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -webkit-linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -o-linear-gradient(to top, $color-primary, $color-secondary);
+  padding: 1rem;
+  text-align: center;
+  width: 12rem; 
+}
+
+.footer-clients-logo {
+  background-color: $color-primary;
+  background-image: linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -moz-linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -webkit-linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -o-linear-gradient(to top, $color-primary, $color-secondary); }
+
+.footer-clients-logo-list img {
+  display: none;
+  opacity: 60%; }
+
+.footer-clients-logo-list img.footer-widget-client-mobile {
+  display: inline-block; 
+}
+
+img.footer-widget-client-mobile {
+  max-width: 10rem;
+  padding: 6rem 0; 
+}
+
+.footer-clients-logo-list {
+  display: flex;
+  justify-content: center; 
+}
+
+.footer-widget-social-link i {
+  color: $color-white;
+  font-size: 1.1rem; 
+}
+.footer-widget-newletter-btn {
+  color: $color-white;
+  margin: 0;
+  font-family: "Poppins", sans-serif; 
+}
+
+.submit-button.widget-popular-title {
+  border: none;
+  text-align: center;
+  margin: 2rem 0 7rem 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 30rem; 
+}

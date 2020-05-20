@@ -1,0 +1,26 @@
+.skill-title {
+    color: #000;
+    font-weight: 600; 
+  }
+  .skill-bar-progress {
+    border-radius: 5px;
+    background-color: #DEDEDE;
+    box-shadow: 0px 0px 0px 4px #EEEEEF;
+    -moz-box-shadow: 0px 0px 0px 4px #EEEEEF;
+    -webkit-box-shadow: 0px 0px 0px 4px #EEEEEF;
+    -o-box-shadow: 0px 0px 0px 4px #EEEEEF;
+    height: 10px;
+    margin: 1rem;
+    position: relative; 
+  }
+  .skill-bar-progress-color {
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+    height: 10px;
+    background-color: $color-primary;
+    background-image: linear-gradient(to top, $color-primary, $color-secondary);
+    background-image: -moz-linear-gradient(to top, $color-primary, $color-secondary);
+    background-image: -webkit-linear-gradient(to top, $color-primary, $color-secondary);
+    background-image: -o-linear-gradient(to top, $color-primary, $color-secondary); 
+  }

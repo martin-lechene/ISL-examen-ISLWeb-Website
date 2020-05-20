@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px) {
+    .contact-form-field {
+      display: flex;
+      flex-direction: column; 
+    }
+    .map-contact-info, .contact-form {
+      margin: 8rem 0 0 0;
+    }
+    .contact-info-content {
+      width: 100%;
+      margin: 0; 
+    }
+    .contact-form-field.contact-form-input input {
+      width: calc(100% - 2rem);
+      margin: 1.1rem; 
+    }
+    .contact-info-content p {
+      margin: 0 1rem; 
+    }
+    .contact-form-field .form-textarea.comment {
+      height: 215px;
+    } 
+}

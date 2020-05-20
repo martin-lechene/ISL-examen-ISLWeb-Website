@@ -1,0 +1,54 @@
+body.blog {
+  background-color: #FAF9FF; 
+}
+.blog-content-stats h3 {
+    width: 100%;
+    font-size: 0.7rem; 
+  }
+  
+  .blog-content-stats i {
+    margin: 0 1rem;
+    color: $title-color; 
+  }
+  
+  .blog-content-feature-img {
+    margin: 1rem; 
+  }
+  
+  .blog-content-txt h5 {
+    font-size: 1.7rem; 
+  }
+  
+  .blog-content-img {
+    width: 100%; 
+  }
+  
+  .blog-content-txt h5, .blog-content-txt p {
+    margin: 1rem; 
+  }
+  
+  .blog-content-txt a {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: $title-color;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: $color-white; 
+  }
+  .blog-pages {
+    margin: 7rem 0;
+    display: flex;
+    justify-content: center; 
+  }
+  .blog-pages .is-active {
+      color: $color-white;
+      background-color: $color-primary; 
+  }
+    .blog-pages a {
+      padding: 1rem;
+      margin: 0;
+      text-decoration: none;
+      color: #6c6c6c; 
+  }

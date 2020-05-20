@@ -1,0 +1,25 @@
+aside {
+  background-color: white;
+}
+aside h3 {
+  color: #000; 
+}
+.widget-cloud, .widget-category  , .widget-category  , .aside-add-area,
+.widget-popular , .aside-widget-author {
+  margin-bottom: 2rem; 
+}
+.widget-popular-title {
+  margin-top: 5rem;
+  position: relative; 
+}
+.widget-popular-title:before {
+  content: "";
+  background-color: #DCDEDF;
+  height: 1.5px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  margin-left: -50%; 
+}

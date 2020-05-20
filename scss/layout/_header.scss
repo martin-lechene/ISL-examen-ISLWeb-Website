@@ -1,0 +1,19 @@
+header {
+    width: 100%;
+    background-color:$color-white;
+    -webkit-box-shadow: 0px 0px 20px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -25px rgba(0,0,0,0.75);
+    -o-box-shadow: 0px 0px 20px -25px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -25px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 997;
+  }
+  /* MAIN  */
+  main {
+    filter: none;
+    -webkit-filter: none;
+    -o-filter:none;
+    -moz-filter:none;
+  }

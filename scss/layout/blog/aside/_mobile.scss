@@ -1,0 +1,75 @@
+
+/* MOBILE VERSION */ 
+@media screen and (min-width: 600px) {
+    /* SECTION CATEGORY */ 
+    section.section-category {
+      margin-bottom: 2rem; 
+    }
+    /* SECTION BLOG */ 
+    .blog-content-txt h5, .blog-content-txt p {
+      margin: 1rem 0; 
+    }
+    /* WIDGET STATS BLOG */
+    .blog-content-stats h3 {
+      font-size: 0.75rem;
+      margin: 0.5rem
+    }
+    .blog-content-stats p {
+      font-size: 0.75rem;
+      margin: 0;
+    }
+    .blog-content-stat .row {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      flex-wrap: nowrap; 
+    }
+    /* WIDGET STATS IMG FEATURE */ 
+    .blog-content-feature-img {
+      margin: 1rem 0 0 0; 
+    }
+    /* WIDGET BLOG CONTENT */ 
+    .blog-content-txt a {
+      font-size: 1rem;
+      margin: 1rem; 
+    }
+    /* BLOG CONTENAIRE */ 
+    .blog-container {
+      margin-right: 1rem; 
+    }
+    /* WIDGET POPULAR */ 
+    .widget-popular-title {
+      font-size: 1rem;
+      padding: 1rem 0; 
+    }
+    .widget-popular-content {
+      margin: 0; 
+    }
+    .widget-popular-content img {
+      width: 9rem;
+      align-self: center; 
+    }
+    .widget-popular-content h3 {
+      font-size: 1rem; 
+    }
+    /* WIDGET MARGIN MOBILE */ 
+    .widget-cloud, .widget-category  , .widget-category  , .aside-add-area,
+    .widget-popular , .aside-widget-author {
+      margin-bottom: 1rem; 
+    }
+    /* BOUTON AUTRE */
+    .btn-more:hover, .blog-content-txt a:hover {
+      -webkit-transform: scale(1.05);
+      -o-transform:scale(1.05);
+      transform: scale(1.05);
+      -moz-transform:scale(1.05);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -o-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 1s ease-in; 
+      -o-transition: 1s ease-in;
+      -moz-transition: 1s ease-in;
+      -webkit-transition: 1s ease-in;
+    } 
+  }

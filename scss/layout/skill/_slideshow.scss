@@ -1,0 +1,26 @@
+.section-slideshow {
+    width: 100%;
+    background-image: url(../img/blog/blog-home-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12.5rem 0;
+    margin-bottom: 5rem; 
+    display: flex;
+    justify-content: center;
+  
+  }
+  .section-slideshow h5, .section-slideshow p {
+      color: $color-white;
+      text-align: center; 
+  }
+  .section-slideshow .warp {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+  }
+    .section-slideshow a {
+      font-weight: 600;
+      width: 10rem;
+      text-align: center;
+      padding: 1rem 1.3rem; 
+  }

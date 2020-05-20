@@ -1,0 +1,8 @@
+.blog-article-img {
+    display: flex;
+    width: 100%; 
+}
+.blog-article-img img {
+  width: calc(50% - 2rem);
+  margin: 1rem; 
+}

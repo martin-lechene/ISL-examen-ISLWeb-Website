@@ -1,0 +1,29 @@
+.warp.services {
+  display: flex;
+  flex-direction: column; 
+}
+.warp.services p, .warp.services h1, .warp.services h2, .warp.services h3, .warp.services h4, .warp.services i {
+  margin: 1rem;
+  text-align: center; 
+}
+.warp.services h2 {
+  text-align: center;
+}
+.sect-title, .services, .portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.services-title{
+  text-transform: capitalize;
+}
+.services i {
+  font-size: 2.5rem;
+  margin: 0.2rem;
+  color: #000;
+  color: linear-gradient(to top, $color-primary, $color-secondary);
+  color: -moz-linear-gradient(to top, $color-primary, $color-secondary);
+  color: -webkit-linear-gradient(to top, $color-primary, $color-secondary);
+  color: -o-linear-gradient(to top, $color-primary, $color-secondary);
+}

@@ -1,0 +1,44 @@
+.widget-category {
+    width: 100%; 
+  }
+  .widget-category-txt {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted #c2c3c4;
+    margin: 0 1rem; 
+  }
+  .widget-category-txt p {
+      margin: 1rem 0; 
+  }
+  .widget-category {
+    text-align: center; 
+  }
+  .widget-category form {
+    margin: 1rem;
+    height: 40px;
+    display: flex;
+    position: relative; 
+  }
+  .widget-category .form-email {
+    padding: .6rem .6rem .6rem 3rem;
+    height: 100%;
+    width: 100%; 
+  }
+  .widget-category .footer-widget-newletter-btn {
+    padding: .6rem;
+    height: 100%; 
+  }
+  .widget-category .footer-widget-newletter-btn {
+    background-color: #7E98FF;
+    border: none;
+    margin-left: -4px; 
+  }
+  .widget-category .footer-widget-newletter-btn i {
+    color: $color-white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal; 
+  }
+  .widget-category   input::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem; 
+  }

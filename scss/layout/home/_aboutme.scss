@@ -1,0 +1,27 @@
+.section-about {
+  width: 100%;
+  background-color: #FAF9FF;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme-content{
+  display: flex;
+  justify-content: center;
+}
+.aboutme-img{
+  max-width: 50%;
+}
+
+@media (max-width:600px){
+  .aboutme-content{
+    display: block;
+  }
+  .aboutme-img{
+    max-width: 100%;
+  }
+}
+
+.section-warp .aboutme-img {
+  padding: 0;
+}

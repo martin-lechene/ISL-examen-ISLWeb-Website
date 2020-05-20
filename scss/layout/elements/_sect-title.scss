@@ -1,0 +1,34 @@
+.section-title {
+  display: flex;
+  justify-content: center;
+  background-color: $color-primary;
+  background-image: linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -moz-linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -webkit-linear-gradient(to top, $color-primary, $color-secondary);
+  background-image: -o-linear-gradient(to top, $color-primary, $color-secondary);
+  width: 100%;
+  padding: 3rem 0;
+  margin-bottom: 3rem; 
+}
+
+.header-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between; 
+  width: 100%;
+}
+
+.section-title h2, .section-title p, .section-title i {
+  color: $color-white;
+  text-align: center;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+}
+.sect-title h1{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+

@@ -1,0 +1,131 @@
+
+@media screen and (min-width: 600px) {
+    /* WARP */
+    .warp {
+      max-width: 1140px; 
+    }
+  
+    /* MENU HAMBURGER */ 
+    .hamburger {
+      display: none; 
+    }
+  
+    /* BODY LAYOUT */ 
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+    /* SECTION ABOUT ME MOBILE */ 
+    .section-aboutme {
+      margin-bottom: 1rem;
+      width: 100%;
+      justify-content: center; 
+    }
+    /* SECTION THIS IS ME MOBILE */
+    .section-thisisme {
+      display: flex;
+      justify-content: center; 
+    }
+    /* SECTION TITLE PAGE */ 
+    .services-txt, .services-title {
+      text-align: center;
+      width: 44rem;
+    }
+    .services-title{
+      font-size: 2.5rem;
+      text-transform: uppercase;  
+    }
+    /* LAYOUT CONTENT */ 
+    .model-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+    }
+    /* SECTION STATS */
+    .section-stats div.row {
+      flex-direction: row; 
+    }
+    .section-stats {
+      display: flex;
+      justify-content: center; 
+    }
+    div.stats-content-info {
+      min-width: 15rem; 
+    }
+    
+    /* SECTION PORTFOLIO */
+    div.portfolio {
+      width: 33%; 
+    }
+    /* SECTION SERVICE */ 
+    section.warp.services {
+      margin-bottom: 2rem; 
+    }
+  
+    /* SECTION BLOG */
+    .blog-content-stats-author img {
+      width: 2rem; 
+    }
+    .blog-content-stats-author h3 {
+      margin: 0 0 0 .5rem;
+      font-size: .8rem; 
+    }
+    .blog-content-stats-author {
+      align-items: center;
+      padding: 1rem;
+    }
+    
+    /* HEADER LAYOUT  */
+    header {
+      width: 100%;
+    }
+    /* MAIN LAYOUT  */
+    main {
+      width: 100%;
+    }
+    .main-about{
+      width: auto;
+    }
+    .main-portfolio{
+      width: auto;
+    }
+    .main-blog{
+      width: auto;
+    }
+    /* FOOTER */ 
+    footer {
+      width: 100%; 
+    }
+    
+    /* FOOTER CLIENTS LOGO */
+    .footer-clients-logo, .footer-widget {
+      display: flex;
+      justify-content: center; 
+    }
+    .footer-clients-logo-list {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; 
+    }
+    .footer-clients-logo-list img {
+      display: block;
+      height: auto;
+      max-width: 8rem;
+      padding: 5rem 0; 
+    }
+    .footer-clients-logo div.warp {
+      width: 960px; 
+    }
+    .btn-home:hover {
+      -webkit-transform: scale(1.05);
+      -o-transform:scale(1.05);
+      -moz-tranform:scale(1.05);
+      transform: scale(1.05);
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transition: 1s ease-in; 
+    } 
+  }

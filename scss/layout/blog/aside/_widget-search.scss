@@ -1,0 +1,48 @@
+.aside-widget-search {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+  }
+  .aside-widget-search form {
+    width: 100%;
+    margin: 1rem;
+    position: relative; 
+  }
+  .aside-widget-search i {
+      font-size: 1.5rem; 
+  }
+  .aside-widget-search ::-webkit-input-placeholder, .aside-widget-search :-ms-input-placeholder, .aside-widget-search ::-moz-placeholder, .aside-widget-search :-moz-placeholder   {
+      color: $color-white; 
+  }
+  .aside-widget-search ::-moz-placeholder, .aside-widget-search :-moz-placeholder  {
+    opacity: 1; 
+  }
+  
+  /* ELEMENT WIDGET SEARCH AND NEWSLETTER */ 
+  .aside-widget-search .footer-widget-newletter-btn, .aside-widget-search .aside-widget-newletter-btn {
+    margin-left: -2rem;
+    background-color: $color-primary;
+    border: none;
+    height: 3.5rem;
+    border-radius: 5rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    z-index: 3; 
+  }
+  .aside-widget-search .footer-widget-newletter-btn i {
+      display: inline-block;
+      padding: 1 2rem;
+      color: $color-white; 
+  }
+  .aside-widget-search .aside-widget-searchs-form {
+    width: 100%;
+    background-color: $color-primary;
+    padding: 1rem 3rem 1rem 2rem;
+    border-radius: 5rem;
+    border: none;
+    position: relative;
+    z-index: 0;
+    color: $color-white;
+    font-family: "Poppins", sans-serif; 
+  }

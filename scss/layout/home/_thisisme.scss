@@ -1,0 +1,12 @@
+.section-thisisme {
+    width: 100%;
+    background-color: #FAF9FF;
+  }
+  .thisisme-img{
+    max-width: 30%;
+  }
+  @media (max-width:600px){
+    .thisisme-img{
+      max-width: 75%;
+    }
+  }
